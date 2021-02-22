@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My list</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <form action="to-do-form" id="to-do-form">
+      <fieldset id="to-do-fieldest">
+        <legend>My list</legend>
+        <div class="inputField">
+          <input type="text" placeholder="Add your new todo" id="inputText" />
+          <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+        </div>
+        <ul class="todoList">
+          <li>
+            buy water<span
+              ><i class="fa fa-trash-o" aria-hidden="true"></i
+            ></span>
+          </li>
+          <li>
+            buy apple<span
+              ><i class="fa fa-trash-o" aria-hidden="true"></i
+            ></span>
+          </li>
+          <li>
+            buy orange<span
+              ><i class="fa fa-trash-o" aria-hidden="true"></i
+            ></span>
+          </li>
+          <li>
+            buy painapple<span
+              ><i class="fa fa-trash-o" aria-hidden="true"></i
+            ></span>
+          </li>
+        </ul>
+        <div class="removeButton">
+          <button>Clear All</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
