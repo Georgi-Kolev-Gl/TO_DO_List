@@ -35,6 +35,10 @@ body {
   border-radius: 5px;
   padding-left: 10px;
 }
+#to-do-fieldest .inputField button.aktive {
+    opacity: 1;
+    pointer-events: auto;
+}
 .inputField button {
   width: 50px;
   height: 100%;
@@ -45,6 +49,13 @@ body {
   font-size: 18px;
   border-radius: 5px;
   margin-left: 5px;
+  cursor: pointer;
+  opacity: 0.3;
+  pointer-events: none;
+}
+#to-do-fieldest .todoList{
+    max-height: 250px;
+    overflow-y: auto;
 }
 .todoList li {
   list-style: none;
