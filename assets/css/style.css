@@ -93,4 +93,12 @@ body {
   border-radius: 5px;
   margin-left: 5px;
   padding: 7px;
+  user-select: none;
+  opacity: 0.3;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.removeButton button.active{
+  opacity: 1;
+  pointer-events: auto;
 }
